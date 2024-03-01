@@ -5,6 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Prata&display=swap" rel="stylesheet">
 
     <!-- Links to the CSS styles from Bootstrap. -->
     <!-- -->
@@ -14,7 +18,7 @@
     <!-- Links to our additional CSS styles -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>Firstname Lastname's Resumé</title>
+    <title>Caroll-Ann Casseres' Resumé</title>
   </head>
   <!-- End of the head -->
 
@@ -27,7 +31,7 @@
       The "my-sm-4" class adds a margin (m) vertical (y) at sizes small (-sm-) and above, of 4 x 6 pixels
       The "resume-container" class doesn't come from Bootstrap, you can use it for your own styles
     -->
-    <div class="container shadow-lg my-sm-4 resume-container">
+<div class="resume-container">
 
       <!--
         <header> is a semantic element: it works exactly like <div>, but it gives information about the role of the code below.
@@ -38,20 +42,87 @@
           A container to wrap around the portrait and align it. We use Bootstrap grid columns.
           This constrains the portrait to columns of decreasing sizes
         -->
-        <div class="portrait-container col-5 col-sm-4 col-md-3 col-lg-2">
-          <!--
-            "w-100" makes sure the image takes the full width of the column it's in
-            "rounded-circle" cuts a circle around the image
-          -->
-          <img class="w-100 rounded-circle my-3" src="images/portrait.svg" alt="Portrait of Firstname Lastname" width="160">
-        </div>
-        <!--
-          A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
-        -->
-        <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
+     
+    <div class="header-content">
+		<img class="icon-image" src="images/portrait.png" alt="Portrait of Firstname Lastname" width="160">
           <h1 class="fw-bolder">Caroll-Ann Casseres&nbsp;</h1>
-          <h5 class="fst-italic tagline">Creative production specialist.&nbsp; &nbsp;</h5>
-        </div>
+          <h5 class="tagline">Creative production specialist & enthousiast.&nbsp; &nbsp;</h5>
+		
+	<section class="contacts-section">
+            <h2>Contact</h2>
+            <!--
+              A list of all your contact details.
+              There are more icons in the images/icons folder, have a look if you want to add your LinkedIn or TikTok profile.
+              Be careful and only put channels through which you really want to be contacted.
+              If your phone number is your personal one, you may want to remove it!
+            -->
+            <ul class="contact-list list-unstyled">
+              <li class="contact-item">
+                <a class="d-flex align-items-center" href="mailto:email@buas.nl" target="_blank">
+                  <img class="contact-icon" src="images/icons/envelope.svg" alt="Email">
+                  email@buas.nl
+                </a>
+              </li>
+              <li class="contact-item">
+                <a class="d-flex align-items-center" href="https://facebook.com/" target="_blank">
+                  <img class="contact-icon" src="images/icons/facebook.svg" alt="Facebook">
+                  Facebook Profile
+                </a>
+              </li>
+              <li class="contact-item">
+                <a class="d-flex align-items-center" href="https://github.com/" target="_blank">
+                  <img class="contact-icon" src="images/icons/github.svg" alt="LinkedIn">
+                  GitHub Profile
+                </a>
+              </li>
+              <li class="contact-item">
+                <a class="d-flex align-items-center" href="https://www.tiktok.com/@bredauniversityas" target="_blank">
+                  <img class="contact-icon" src="images/icons/tiktok.svg" alt="Mobile Phone">
+                  TikTok @bredauniversityas
+                </a>
+              </li>
+            </ul>
+          </section>
+
+		<section class="Languages Section">
+            <h2>Languages</h2>
+            <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
+            <ul class="language-list list-unstyled">
+              <li class="language-item d-flex mb-1">
+                <h5 class="language-name w-50">Dutch</h5>
+                <div class="language-level w-50 border border-info border-2 position-relative">
+                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
+                  <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
+                </div>
+              </li>
+              <li class="language-item d-flex mb-1">
+                <h5 class="language-name w-50">English</h5>
+                <div class="language-level w-50 border border-info border-2 position-relative">
+                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
+                  <div class="language-progress position-absolute bg-warning h-100 w-75"></div>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
+                </div>
+              </li>
+              <li class="language-item d-flex mb-1">
+                <h5 class="language-name w-50">Spanish</h5>
+                <div class="language-level w-50 border border-info border-2 position-relative">
+                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
+                  <div class="language-progress position-absolute bg-warning h-100 w-50"></div>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1">Advanced</h6>
+                </div>
+              </li>
+              <li class="language-item d-flex mb-1">
+                <h5 class="language-name w-50">German</h5>
+                <div class="language-level w-50 border border-info border-2 position-relative">
+                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
+                  <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
+                </div>
+              </li>
+            </ul>
+          </section>
+      </div>
       </header>
 
       <!--
@@ -162,82 +233,10 @@
         <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside">
 
           <!-- The first block will be contact details -->
-          <section class="my-3 aside-section">
-            <h2>Contact</h2>
-            <!--
-              A list of all your contact details.
-              There are more icons in the images/icons folder, have a look if you want to add your LinkedIn or TikTok profile.
-              Be careful and only put channels through which you really want to be contacted.
-              If your phone number is your personal one, you may want to remove it!
-            -->
-            <ul class="contact-list list-unstyled">
-              <li class="contact-item">
-                <a class="d-flex align-items-center" href="mailto:email@buas.nl" target="_blank">
-                  <img class="contact-icon" src="images/icons/envelope.svg" alt="Email">
-                  email@buas.nl
-                </a>
-              </li>
-              <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://facebook.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/facebook.svg" alt="Facebook">
-                  Facebook Profile
-                </a>
-              </li>
-              <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://github.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/github.svg" alt="LinkedIn">
-                  GitHub Profile
-                </a>
-              </li>
-              <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://www.tiktok.com/@bredauniversityas" target="_blank">
-                  <img class="contact-icon" src="images/icons/tiktok.svg" alt="Mobile Phone">
-                  TikTok @bredauniversityas
-                </a>
-              </li>
-            </ul>
-          </section>
-
+ 
           <!-- End of contact details, moving on to languages -->
 
-          <section class="my-3 aside-section">
-            <h2>Languages</h2>
-            <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
-            <ul class="language-list list-unstyled">
-              <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Dutch</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
-                </div>
-              </li>
-              <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">English</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-75"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
-                </div>
-              </li>
-              <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Spanish</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-50"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Advanced</h6>
-                </div>
-              </li>
-              <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">German</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
-                </div>
-              </li>
-            </ul>
-          </section>
+         
 
           <!-- End of contact details, moving on to other skills -->
 
