@@ -10,20 +10,45 @@ body {
 	color: #202030;
 	background-color: #f8f8fc;
 }
-
-/* Styles for custom classes in the document. (There are more, try to find them out!) */
-
-.resume-header {
-    background-color: #e0f0ff;
+.resume-header{
+	float: left;
+	width: 30%;
+	background-color: #D59192;
 }
-
+.resume-main{ 
+float: none;
+}
+.header-content{
+	margin-left: 10%;
+	color:#FFFFFF;
+}
 .resume-main {
 	background-color: #fffefc;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #F8F8FC;
+	color: #D59192;
+	float: right;
 }
+.fw-bolder{
+    font-family: "Lobster", sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-top: 15%;
+    padding-bottom: 1%;
+}
+h4{
+	font-size:18px;
+	font-weight: bold;
+	
+}
+h2{
+	font-family: "Lobster", sans-serif;
+}
+
+/* Styles for custom classes in the document. (There are more, try to find them out!) */
+
 
 /* Styles for lists in the document */
 
@@ -44,6 +69,20 @@ body {
 }
 
 /* Styles for contact icons */
+.icon-image{
+    margin: auto;
+    width: 80%;
+	border-radius: 50%;
+	margin-top: 10%;
+	margin-left: 5%;
+}
+.contacts-section{
+	margin-bottom: 66%;
+}
+.tagline{
+	margin-bottom: 10%;
+    margin-top: -14px;
+}
 
 .contact-icon {
 	height: 1em;
