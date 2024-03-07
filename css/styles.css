@@ -9,22 +9,28 @@ body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
+	
 }
 .resume-header{
 	float: left;
 	width: 30%;
 	background-color: #DCA6A5;
+
+
 }
 .resume-main{ 
 float: none;
+length:100%;
 }
 
 .header-content{
 	margin-left: 10%;
 	color:#FFFFFF;
+	 
 }
 .resume-main {
-	background-color: #fffefc;
+    background-color: #fffefc;
+    padding-top: 5%;
 }
 
 .resume-aside {
@@ -77,9 +83,7 @@ h2{
 	margin-top: 10%;
 	margin-left: 5%;
 }
-.contacts-section{
-	margin-bottom: 37%;
-}
+
 .tagline{
 	margin-bottom: 10%;
     margin-top: -14px;
@@ -89,12 +93,9 @@ h2{
 	height: 1em;
 	flex-basis: 1.4em;
 }
-.contact-item{
-	color: white;
-	
-	text-decoration: none;
-}
 .language-level{
 	color:#682538
 }
-
+.contact-list{
+	padding-bottom:45%;
+}
