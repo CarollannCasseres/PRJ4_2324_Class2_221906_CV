@@ -30,7 +30,6 @@ length:100%;
 }
 .resume-main {
     background-color: #fffefc;
-    padding-top: 44px;
 }
 
 .resume-aside {
@@ -96,6 +95,7 @@ h2{
 .language-level{
 	color:#682538
 }
+
 .contact-list{
 	padding-bottom:45%;
 }
